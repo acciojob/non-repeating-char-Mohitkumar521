@@ -1,5 +1,4 @@
 function firstNonRepeatedChar(str) {
-    // Write your code here
     const charCount = {};
 
     // Count the occurrences of each character in the string
@@ -24,6 +23,7 @@ const result = firstNonRepeatedChar(input);
 if (result !== null) {
     alert("First non-repeated character: " + result);
 } else {
-    alert("No non-repeated character found in the string.");
+    alert("null");
 }
+
 
